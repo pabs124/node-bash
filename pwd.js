@@ -13,5 +13,6 @@ module.exports = function (){
     process.stdout.write(`it worked!${process.cwd()}`)
     }
 })
+process.stdout.write('prompt > ')
 }
     
